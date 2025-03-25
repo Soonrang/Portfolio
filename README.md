@@ -1,6 +1,13 @@
-# Portflio
+# 포트폴리오 
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+
+<div></div>
+<img width="450" alt="Image" src="https://github.com/user-attachments/assets/95a5c858-1fdc-4ecf-b1b4-2f3043f60a82" />
+<img width="450" alt="Image" src="https://github.com/user-attachments/assets/49658599-84f9-4a34-b439-38c39be32517" />
+
+
+
 
 ## Development server
 
