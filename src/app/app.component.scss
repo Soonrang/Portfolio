@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Pretendard', sans-serif;
+}
+
+.nav {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+  a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover {
+      color: #ff6b81;
+      text-decoration: underline;
+    }
+  }
+}
+
+section {
+  padding: 6rem 2rem;
+}
+
+.interview-section {
+  background-color: #1e1e1e;
+  border-radius: 1.5rem;
+  padding: 4rem 3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.interview-title {
+  font-size: 2rem;
+  color: #ff6b81;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.interview-item {
+  background: #333;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ff6b81;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #ddd;
+
+    strong {
+      color: #ff6b81;
+      font-weight: bold;
+    }
+  }
+}

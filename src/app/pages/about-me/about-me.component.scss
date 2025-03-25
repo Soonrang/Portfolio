@@ -1,0 +1,47 @@
+.about-me {
+  text-align: center;
+  padding: 2rem;
+
+  .description {
+    white-space: pre-line;
+  }
+
+  .profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .skills, .contact {
+    margin-top: 3rem;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin: 0.5rem 0;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<section class="interview-container">
+  <h2 data-aos="fade-up">Interview</h2>
+  <div *ngFor="let item of interviews" class="interview-item" data-aos="fade-up">
+    <h3>Q. {{ item.question }}</h3>
+    <p [innerHTML]="item.answer"></p>
+  </div>
+</section>

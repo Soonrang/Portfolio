@@ -1,0 +1,25 @@
+<section class="about-me">
+
+<div class="about-me">
+  <img class="profile" [src]="aboutMe.profileImage" alt="Profile">
+  <h1>{{ aboutMe.position }}</h1>
+  <p class="description">{{ aboutMe.description }}</p>
+
+  <div class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li *ngFor="let skill of aboutMe.skills">{{ skill }}</li>
+    </ul>
+  </div>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <ul>
+      <li *ngFor="let contact of aboutMe.contacts">
+        <a [href]="contact.url" target="_blank">{{ contact.type }}</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+</section>
